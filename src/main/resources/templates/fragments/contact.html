@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:fragment="contact-section">
+
+    <section class="section contact" id="contact">
+
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="section-title-container">
+
+                <h2 class="section-title">Let's Connect</h2>
+
+                <p class="section-subtitle">
+                    Have a question, project idea, or opportunity? I'd love to hear from you!
+                </p>
+
+            </div>
+
+
+            <div class="contact-container">
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+
+                    <h3 class="contact-heading">
+                        Let's Connect & Create Something Great
+                    </h3>
+
+                    <p class="contact-text">
+                        I'm a B.Tech Computer Science student and aspiring Full Stack
+                        Java Developer. I'm always open to learning new technologies,
+                        collaborating on interesting projects, and connecting with
+                        developers and professionals to grow and share ideas.
+                    </p>
+
+
+                    <div class="contact-links">
+
+                        <!-- Email -->
+                        <a href="mailto:chaurasiyaravi93483@gmail.com"
+                           class="contact-link">
+
+                            <div class="contact-link-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+
+                            <div class="contact-link-text">
+
+                                <span class="contact-link-label">
+                                    Email
+                                </span>
+
+                                <span class="contact-link-value">
+                                    chaurasiyaravi93483@gmail.com
+                                </span>
+
+                            </div>
+
+                        </a>
+
+
+                        <!-- Phone -->
+                        <a href="tel:+917881144594"
+                           class="contact-link">
+
+                            <div class="contact-link-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+
+                            <div class="contact-link-text">
+
+                                <span class="contact-link-label">
+                                    Phone
+                                </span>
+
+                                <span class="contact-link-value">
+                                    +91 7881144594
+                                </span>
+
+                            </div>
+
+                        </a>
+
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/ravi-kumar2611?utm_source=share_via&utm_content=profile&utm_medium=member_androidL"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-link">
+
+                            <div class="contact-link-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+
+                            <div class="contact-link-text">
+
+                                <span class="contact-link-label">
+                                    LinkedIn
+                                </span>
+
+                                <span class="contact-link-value">
+                                    Connect with me
+                                </span>
+
+                            </div>
+
+                        </a>
+
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/chaurasiyaravi93483-debug"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-link">
+
+                            <div class="contact-link-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+
+                            <div class="contact-link-text">
+
+                                <span class="contact-link-label">
+                                    GitHub
+                                </span>
+
+                                <span class="contact-link-value">
+                                    View my projects
+                                </span>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+
+                    <form action="https://api.web3forms.com/submit"
+                          method="post">
+
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden"
+                               name="access_key"
+                               value="2e16954d-89db-47bc-8cec-0ee7688a9f1e">
+
+
+                        <!-- Name -->
+                        <div class="form-group">
+
+                            <label for="name"
+                                   class="form-label">
+                                Your Name
+                            </label>
+
+                            <input type="text"
+                                   id="name"
+                                   name="name"
+                                   class="form-control"
+                                   placeholder="Enter your name"
+                                   autocomplete="name"
+                                   required>
+
+                        </div>
+
+
+                        <!-- Email -->
+                        <div class="form-group">
+
+                            <label for="email"
+                                   class="form-label">
+                                Your Email
+                            </label>
+
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   class="form-control"
+                                   placeholder="Enter your email"
+                                   autocomplete="email"
+                                   required>
+
+                        </div>
+
+
+                        <!-- Subject -->
+                        <div class="form-group">
+
+                            <label for="subject"
+                                   class="form-label">
+                                Subject
+                            </label>
+
+                            <input type="text"
+                                   id="subject"
+                                   name="subject"
+                                   class="form-control"
+                                   placeholder="Project / Internship / Collaboration"
+                                   required>
+
+                        </div>
+
+
+                        <!-- Message -->
+                        <div class="form-group">
+
+                            <label for="message"
+                                   class="form-label">
+                                Your Message
+                            </label>
+
+                            <textarea id="message"
+                                      name="message"
+                                      class="form-control"
+                                      placeholder="Write your message here..."
+                                      rows="5"
+                                      required></textarea>
+
+                        </div>
+
+
+                        <!-- Submit Button -->
+                        <button type="submit"
+                                class="btn btn-primary">
+
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</th:block>
+
+</html>

@@ -1,0 +1,81 @@
+<!-- fragments/hero.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm </div>
+                <h1 class="hero-title">
+    <span class="gradient-text">
+        Ravi<br>
+        Chaurasiya
+    </span>
+                </h1>
+                <h2 class="hero-subtitle">Full Stack Java Developer, Student</h2>
+                <p class="hero-description">
+                    Passionate about building modern web applications and solving real-world problems through code. I’m focused on Java, Spring Boot, JSP, REST APIs, HTML, CSS, and JavaScript, while exploring Machine Learning and expanding my knowledge of Generative AI to build smarter and more innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+917881144594" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:chaurasiyaravi93483@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ravi-kumar2611?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/chaurasiyaravi93483" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/image/profile.png" alt="Profile" style="width: 90%; height: 90%; object-fit: cover; border-radius: 15px;">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+                <div class="hero-stats stats-1">
+                    <div class="hero-stats-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Developer</div>
+                        <div class="hero-stats-value">Java</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-2">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Student</div>
+                        <div class="hero-stats-value">Topmate</div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
